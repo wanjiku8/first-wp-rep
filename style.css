@@ -1,0 +1,386 @@
+/* Theme Name:MARGE VENTURES
+   Theme URI:MARGE VENTURES
+   Author:Daisy
+   Version:1.0
+   Author URI:
+   Description:wordpress MARGE VENTURES theme
+   */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+
+*{
+    border: 0;
+    padding: 0;
+    
+}
+
+.nav-cont{
+    background: url(./photos/tomatoes-1561565_1280.jpg) top/cover;
+    height: 90vh;
+}
+
+.navbar-bar{
+    background: white;
+    padding: 20px 30px;
+    box-shadow: 8px 8px 1px 1px #303b2d;
+}
+
+
+.navbar-bar img{
+    max-width: 190px;
+    position: absolute;
+    top: 0;
+    transform: translateY(-70px);
+
+}
+.navbar-bar a{
+    color: #303b2d;
+    font-weight: 500;
+}
+
+.navbar-bar a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.8rem;
+    color: #303b2d;
+    
+}
+
+.navbar-bar .make{
+    background: transparent;
+    padding: 10px 20px;
+}
+.navbar-bar .make a{
+    text-decoration: none;
+    color: #303b2d;
+    border: 1px solid #303b2d;
+    padding: 10px 15px;
+}
+.herosection-text{
+    position: relative;
+    top: 170px;
+    color: white;
+}
+
+
+.herosection-text h1{
+    font-size: 3.4em;
+    font-weight: 700;
+}
+
+.herosection-text h4{
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.herosection-text a{
+    background: transparent;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+}
+
+.two-box{
+    margin-top: -40px;
+    margin-bottom: 60px;
+    gap: 0;
+}
+.one{
+    background: #303b2d9d;
+    width: 500px;
+    padding: 60px 0px;
+    text-align: center;
+    box-shadow: 5px 5px#404540;
+
+}
+
+.one img{
+    max-width: 310px;
+    margin-bottom: 25px;
+    box-shadow: 3px 2px#fdfffd;
+}
+.one a{
+    border:1px solid #303b2d;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+.two{
+    background: #303b2d9d;
+    width: 500px;
+    padding: 60px 0px;
+    text-align: center;
+    box-shadow: 5px 5px#404540;
+
+
+}
+
+
+.two img{
+    max-width: 330px;
+    margin-bottom: 25px;
+    box-shadow: 3px 2px#fdfffd;
+
+}
+.two a{
+    border:1px solid #303b2d;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+  .about{
+    background: #303b2d;
+    padding: 90px;
+  }
+  .about img{
+    max-width: 550px;
+  }
+
+  .about h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    border-right: 1px solid white;
+    max-width: 200px;
+    padding: 0px;
+    color: white;
+    margin-bottom: 30px;
+    /* background: blue; */
+  }
+
+  .about p{
+    line-height: 30px;
+    font-size: 17.5px;
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  .about a{
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: #ffff;
+  }
+  .choose{
+    margin-top: 50px;
+  }
+  .choose img{
+    max-width: 550px;
+  }
+
+  .choose h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    border-right: 1px solid rgb(3, 3, 3);
+    max-width: 270px;
+    padding: 0px;
+    margin-bottom: 30px;
+    /* background: blue; */
+  }
+
+
+  .choose p{
+    line-height: 30px;
+    font-size: 17.5px;
+    color: black;
+    margin-bottom: 40px;
+  }
+
+  .services{
+    background: url(./photos/nikolett-emmert-_nz5u3zTP8A-unsplash.jpg) bottom/cover;
+  }
+
+  .textservices h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    border-right: 1px solid rgb(3, 3, 3);
+    max-width: 220px;
+    padding: 0px;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    /* background: blue; */
+  }
+
+  .service{
+    padding: 90px;
+  }
+
+  .service .box{
+    border: 1px solid #303b2d39;
+    border-radius: 3px;
+    color: white;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px; 
+    background: #303b2d56;
+    margin-bottom: 40px;
+  }
+
+  .service .box p{
+    line-height: 30px;
+  }
+
+  .service a{
+    background: #303b2d;
+    padding: 10px 15px;
+    color: white;
+    border: 1px solid #303b2d;
+    text-decoration: none;
+    
+
+  }
+.blog{
+    padding: 90px;
+}
+  .blog .card img{
+    max-height: 270px;
+  }
+
+
+  .blog a{
+    padding: 7px 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: none !important;
+
+  }
+  .blog .t{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .blog p {
+    color: black;
+  }
+
+  .blog h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    border-right: 1px solid rgb(3, 3, 3);
+    max-width: 220px;
+    padding: 10px;
+    margin-bottom: 60px;
+    /* background: blue; */
+  }
+
+
+
+  .main-footer{
+    background: #754c24;
+  }
+
+.logoo{
+    background: white;
+    margin-left: 20px;
+    max-width: 320px;
+    padding: 50px 0px;
+    text-align: center;
+    box-shadow: 4px 4px 1px 1px #323e30;
+}
+  .logo-image img{
+    max-width: 200px;
+  }
+.logoo p{
+    margin-bottom: 40px;
+    line-height: 24px;
+    color: black;
+}
+  .logo-image a{
+    text-decoration: none;
+    border: 1px solid #754c24;
+    padding: 10px 20px;
+    color: #754c24;
+  }
+
+
+.text-two img{
+    height:65px !important;
+    margin: 0;
+ }
+
+ .text-two .row{
+    margin: 20px;
+ }
+
+
+.text-two .container-fluid{
+    padding: 0px 0px 0px 0px !important;
+}
+
+
+
+
+.foot-copy {
+    margin-top: 50px;
+    padding: 20px;
+        border-top: 2px solid rgba(255, 255, 255, 0.358);
+        color: white;
+    }
+
+
+    .half-underline {
+        position: relative;
+        text-decoration: none;
+        transition: color 0.3s; 
+        margin-bottom:20px !important;
+    }
+    
+     .half-underline:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 15%;
+        height: 2.5px;
+        background-color: white;
+        transition: width 0.3s;
+        transform: translateY(10px);
+    }
+
+
+    .main-footer h1{
+        margin-bottom: 40px;
+    }
+
+
+ 
+    .main-footer h2{
+        margin-top: 40px;
+        font-size: 24px;
+    }
+ 
+    .links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+  
+    .text-three li {
+        display: inline-block;
+        margin-right: 10px;
+        list-style: none;    
+    }
+    
+ 
+    .links a{
+        text-decoration: none;
+        color: white;
+        list-style: none;
+    }
+    .text-three li a{
+        text-decoration: none;
+        color: white;
+        list-style: none;
+        font-size: 23px;
+    }
+    
+
+    .main-footer h2,p{
+        color: white;
+    }
